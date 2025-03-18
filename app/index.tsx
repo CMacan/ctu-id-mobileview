@@ -7,8 +7,8 @@ export default function StudentIDCard() {
       <View style={styles.headerContainer}>
 
         <View style={styles.logoContainer}>
-          <Image source={require('../../assets/images/CTU-logo.png')} style={styles.ctuLogo} resizeMode="contain"/>
-          <Image source={require('../../assets/images/asean-logo.png')} style={styles.aseanLogo} resizeMode="contain"/>
+          <Image source={require('../assets/images/CTU-logo.png')} style={styles.ctuLogo} resizeMode="contain"/>
+          <Image source={require('../assets/images/asean-logo.png')} style={styles.aseanLogo} resizeMode="contain"/>
         </View>
         
         <View style={styles.headerText}>
@@ -23,7 +23,7 @@ export default function StudentIDCard() {
 
       <View style={styles.photoWrapper}>
         <View style={styles.photoContainer}>
-          <Image source={require('../../assets/images/profile.jpg')} style={styles.photo} resizeMode="cover"/>
+          <Image source={require('../assets/images/profile.jpg')} style={styles.photo} resizeMode="cover"/>
         </View>
       </View>
 
